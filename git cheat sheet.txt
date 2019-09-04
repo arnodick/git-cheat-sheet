@@ -1,0 +1,47 @@
+COMMIT
+	EVERYTHING
+	git commit -a -m "message"
+	
+	DELETE
+	git reset --hard hash_of_commit_to_go_back_to (LOCAL)
+	git push -f origin hash_of_commit_to_go_back_to:branch_name (REMOTE)
+
+BRANCHES
+	CREATE
+	git checkout -b branchname (LOCAL)
+	git push --set-upstream origin new_branch_name (REMOTE)
+
+	SWITCH
+	git checkout branchname
+
+	MERGE
+	git checkout branch_merge_INTO
+	git merge branch_merge_FROM
+
+	DELETE
+	git branch -d branchname (LOCAL)
+	git push origin --delete branch_name (REMOTE)
+	
+UPDATE
+	git fetch 			(update only the branch you're on, but don't merge any changes)	
+	git remote update 	(update all of your branches set to track remote, but doesn't merge any changes)
+	git pull			(update and merge any remote changes of the current branch you're on)
+	
+TAG
+	LIST
+	git tag
+	
+	ANNOTATE
+	git tag -a v0.9.3.3 hash_to_tag -m "message" (LOCAL)
+	git push origin v0.9.3.3 (REMOTE)
+	git push origin --tags (REMOTE all tags)
+	
+	DELETE
+	git tag -d v0.9.3.3 (LOCAL)
+	git push origin --delete v0.9.3.3 (REMOTE)
+
+
+GIT CLONE VS PULL?
+HOW TO INIT A FOLDER AND PULL FROM REPO? steps
+and git remote update origin after pulling to a new git init? that whole process
+
