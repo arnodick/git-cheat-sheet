@@ -46,7 +46,7 @@
  `git push origin v0.9.3.3`
  
 #### ANNOTATE REMOTE
- `git push origin --tags (pushes all tags)`
+ `git push origin --tags` (pushes all tags)
 	
 #### DELETE LOCAL
  `git tag -d v0.9.3.3`
