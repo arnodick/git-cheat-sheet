@@ -26,9 +26,9 @@
  `git push origin --delete branch_name`
 	
 ## UPDATE
- `git fetch 			(update only the branch you're on, but don't merge any changes)	`
- `git remote update 	(update all of your branches set to track remote, but doesn't merge any changes)`
- `git pull			(update and merge any remote changes of the current branch you're on)`
+ `git fetch` (update only the branch you're on, but don't merge any changes)
+ `git remote update` (update all of your branches set to track remote, but doesn't merge any changes)
+ `git pull` (update and merge any remote changes of the current branch you're on)
 	
 ## TAGS
 #### LIST
