@@ -21,11 +21,14 @@
  `git checkout branch_merge_INTO`
  
  `git merge branch_merge_FROM -m "message"`
+ 
+#### MERGE ABORT (Use when conflicts block a merge)
+ `git merge --abort`
 		
 #### DELETE LOCAL
  `git branch -d branchname`
  
-#### DLETE REMOTE
+#### DELETE REMOTE
  `git push origin --delete branch_name`
 	
 ## UPDATE
