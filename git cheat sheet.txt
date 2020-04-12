@@ -1,4 +1,7 @@
 COMMIT
+	LIST
+		git reflog
+
 	EVERYTHING
 		git commit -a -m "message"
 	
