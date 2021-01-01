@@ -1,3 +1,14 @@
+# Git Cheat Sheet
+This is a handy list of commonly used commands for git command line. It is meant to help when you can't remember how certain commands work, or when you want to quickly do something without reading the documentation.
+
+Each heading is a thing you can do with git, for example commiting or branching.
+
+Each subheading is a specific way of doing that thing. For example the "everything" subheading under commit shows a command for commiting all the files in a branch.
+
+If there are multiple commands under a subheading, then they are meant to be done in the order presented. For example the "merge" subheading under "branches" has two commands, the first for switching to a branch, the second for merging into that branch from another branch.
+
+> Please note, this isn't meant to be a tutorial or in-depth quide. There are other ways to use many of these commands, and these exact commands may not always be what you're looking for! This cheat sheet also doesn't have any explanations of how or why these things work. Rather, it is meant for people who are already familiar with git and need a quick reference for some common commands.
+
 ## COMMIT
 #### LIST
  `git reflog`
