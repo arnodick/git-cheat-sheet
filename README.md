@@ -15,6 +15,9 @@ If there are multiple commands under a subheading, then they are meant to be don
 
 #### EVERYTHING
  `git commit -a -m "message"`
+
+#### CHANGES
+ `git diff hash_of_older_commit..hash_of_newer_commit`
 		
 #### DELETE LOCAL
  `git reset --hard hash_of_commit_to_go_back_to`
