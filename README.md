@@ -18,6 +18,9 @@ If there are multiple commands under a subheading, then they are meant to be don
 
 #### CHANGES
  `git diff hash_of_older_commit..hash_of_newer_commit`
+ 
+#### UNCOMMITTED CHANGES
+ `git diff hash_of_older_commit:./ -- filename`
 		
 #### DELETE LOCAL
  `git reset --hard hash_of_commit_to_go_back_to`
