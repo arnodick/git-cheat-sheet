@@ -76,3 +76,8 @@ If there are multiple commands under a subheading, then they are meant to be don
  
 #### DELETE REMOTE
  `git push origin --delete v0.9.3.3`
+
+## USER
+
+#### STORE CREDENTIALS
+ `git config --global credential.helper store` (saves username and password on next signin)
