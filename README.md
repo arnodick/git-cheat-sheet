@@ -16,6 +16,9 @@ If there are multiple commands under a subheading, then they are meant to be don
 #### EVERYTHING
  `git commit -a -m "message"`
 
+#### SWITCH
+ `git checkout hash_of_commit_to_switch_to`
+
 #### CHANGES
  `git diff hash_of_older_commit..hash_of_newer_commit`
  
