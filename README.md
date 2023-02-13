@@ -64,7 +64,9 @@ If there are multiple commands under a subheading, then they are meant to be don
 ## FORK
 #### PULL REMOTE
  `git fetch upstream`
+ 
  `git checkout main`
+ 
  `git merge upstream/main`
 	
 ## TAGS
