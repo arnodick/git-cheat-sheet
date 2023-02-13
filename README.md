@@ -60,6 +60,12 @@ If there are multiple commands under a subheading, then they are meant to be don
  `git remote update` (update all of your branches set to track remote, but doesn't merge any changes)
  
  `git pull` (update and merge any remote changes of the current branch you're on)
+
+## FORK
+#### PULL REMOTE
+ `git fetch upstream`
+ `git checkout main`
+ `git merge upstream/main`
 	
 ## TAGS
 #### LIST
